@@ -1,884 +1,1003 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Servicios de streaming y entretenimiento. Aprovechá nuestras ofertas.">
-<meta name="theme-color" content="#070a0f">
-<title>STREAMNET | Streaming & Entretenimiento</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#06080c">
+
+  <title>STREAMNET — Cuentas De Streaming</title>
+  <meta name="description" content="Contratá Tus Servicios De Streaming En STREAMNET. Ofertas Especiales Y Atención Por WhatsApp.">
+
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header class="nav">
-  <a class="logo" href="#">STREAM<span>NET</span></a>
-  <a class="navlink" href="#catalogo">Catálogo</a>
-</header>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
 
-<main>
+      <a href="#" class="logo">
+        STREAM<span>NET</span>
+      </a>
 
-<!-- HERO -->
-<section class="hero">
+      <a href="#catalogo" class="header-button">
+        Ver Catálogo
+      </a>
 
-  <div class="pill">🎬 STREAMING & ENTRETENIMIENTO</div>
-
-  <h1>
-    Todo tu<br>
-    <span>entretenimiento.</span>
-  </h1>
-
-  <p>
-    Elegí tu servicio favorito, aprovechá las ofertas
-    y realizá tu contratación de forma rápida y sencilla.
-  </p>
-
-  <a class="cta hero-cta" href="#catalogo">
-    Ver catálogo
-    <b>↓</b>
-  </a>
-
-  <div class="hero-note">
-    Servicio independiente · Consultá las condiciones antes de contratar.
-  </div>
-
-</section>
-
-
-<!-- CATALOGO -->
-<section id="catalogo" class="section">
-
-  <div class="section-title">
-
-    <div>
-      <label>01 / CATÁLOGO</label>
-      <h2>Elegí tu servicio</h2>
     </div>
+  </header>
 
-    <span class="section-count">13 planes</span>
 
-  </div>
+  <!-- HERO -->
+  <main>
 
+    <section class="hero">
+      <div class="container hero-content">
 
-  <div class="grid">
+        <div class="hero-badge">
+          🎬 STREAMING PREMIUM
+        </div>
 
+        <h1>
+          Todo Tu<br>
+          <span>Entretenimiento.</span>
+        </h1>
 
-<!-- NETFLIX -->
+        <p>
+          Elegí Tu Servicio Favorito, Realizá El Pago Y
+          Confirmá Tu Compra Por WhatsApp.
+        </p>
 
-<article class="stream-card featured">
+        <a href="#catalogo" class="hero-button">
+          Explorar Catálogo
+          <span>↓</span>
+        </a>
 
-  <div class="card-head">
-
-    <div class="service-icon netflix">N</div>
-
-    <div>
-      <h3>Netflix Premium 4K</h3>
-      <span>1 Mes</span>
-    </div>
-
-  </div>
-
-  <div class="offer-badge">🔥 OFERTA</div>
-
-  <div class="price-box">
-    <del>$13.000</del>
-    <strong>$10.000</strong>
-  </div>
-
-  <p class="description">
-    Películas, series y contenido en calidad Premium 4K.
-  </p>
-
-  <button onclick="buy('Netflix Premium 4K — 1 Mes',10000)">
-    Comprar
-  </button>
-
-</article>
-
-
-<!-- DISNEY ESTANDAR -->
-
-<article class="stream-card">
-
-  <div class="card-head">
-
-    <div class="service-icon disney">D+</div>
-
-    <div>
-      <h3>Disney+ Estándar</h3>
-      <span>1 Mes</span>
-    </div>
-
-  </div>
-
-  <div class="offer-badge">🔥 OFERTA</div>
-
-  <div class="price-box">
-    <del>$8.000</del>
-    <strong>$6.000</strong>
-  </div>
-
-  <p class="description">
-    Series, películas y contenido de Disney.
-  </p>
-
-  <button onclick="buy('Disney+ Estándar — 1 Mes',6000)">
-    Comprar
-  </button>
-
-</article>
-
-
-<!-- DISNEY PREMIUM -->
-
-<article class="stream-card">
-
-  <div class="card-head">
-
-    <div class="service-icon disney">D+</div>
-
-    <div>
-      <h3>Disney+ Premium</h3>
-      <span>1 Mes</span>
-    </div>
-
-  </div>
-
-  <div class="offer-badge">🔥 OFERTA</div>
-
-  <div class="price-box">
-    <del>$9.000</del>
-    <strong>$6.500</strong>
-  </div>
-
-  <p class="description">
-    Disney, Pixar, Marvel, Star Wars y más.
-  </p>
-
-  <button onclick="buy('Disney+ Premium — 1 Mes',6500)">
-    Comprar
-  </button>
-
-</article>
-
-
-<!-- HBO 1 MES -->
-
-<article class="stream-card">
-
-  <div class="card-head">
-
-    <div class="service-icon hbo">HBO</div>
-
-    <div>
-      <h3>HBO Max</h3>
-      <span>1 Mes</span>
-    </div>
-
-  </div>
-
-  <div class="offer-badge">🔥 OFERTA</div>
-
-  <div class="price-box">
-    <del>$7.000</del>
-    <strong>$5.000</strong>
-  </div>
-
-  <p class="description">
-    Series, películas y producciones originales.
-  </p>
-
-  <button onclick="buy('HBO Max — 1 Mes',5000)">
-    Comprar
-  </button>
-
-</article>
-
-
-<!-- HBO 2 MESES -->
-
-<article class="stream-card">
-
-  <div class="card-head">
-
-    <div class="service-icon hbo">HBO</div>
-
-    <div>
-      <h3>HBO Max</h3>
-      <span>2 Meses</span>
-    </div>
-
-  </div>
-
-  <div class="offer-badge">🔥 OFERTA</div>
-
-  <div class="price-box">
-    <del>$10.000</del>
-    <strong>$7.500</strong>
-  </div>
-
-  <p class="description">
-    Disfrutá HBO Max durante 2 meses.
-  </p>
-
-  <button onclick="buy('HBO Max — 2 Meses',7500)">
-    Comprar
-  </button>
-
-</article>
-
-
-<!-- HBO 3 MESES -->
-
-<article class="stream-card">
-
-  <div class="card-head">
-
-    <div class="service-icon hbo">HBO</div>
-
-    <div>
-      <h3>HBO Max</h3>
-      <span>3 Meses</span>
-    </div>
-
-  </div>
-
-  <div class="offer-badge">🔥 OFERTA</div>
-
-  <div class="price-box">
-    <del>$12.000</del>
-    <strong>$9.500</strong>
-  </div>
-
-  <p class="description">
-    Disfrutá HBO Max durante 3 meses.
-  </p>
-
-  <button onclick="buy('HBO Max — 3 Meses',9500)">
-    Comprar
-  </button>
-
-</article>
-
-
-<!-- PRIME 1 MES -->
-
-<article class="stream-card">
-
-  <div class="card-head">
-
-    <div class="service-icon prime">P</div>
-
-    <div>
-      <h3>Prime Video</h3>
-      <span>1 Mes</span>
-    </div>
-
-  </div>
-
-  <div class="offer-badge">🔥 OFERTA</div>
-
-  <div class="price-box">
-    <del>$7.000</del>
-    <strong>$5.000</strong>
-  </div>
-
-  <p class="description">
-    Películas, series y contenido exclusivo.
-  </p>
-
-  <button onclick="buy('Prime Video — 1 Mes',5000)">
-    Comprar
-  </button>
-
-</article>
-
-
-<!-- PRIME 2 MESES -->
-
-<article class="stream-card">
-
-  <div class="card-head">
-
-    <div class="service-icon prime">P</div>
-
-    <div>
-      <h3>Prime Video</h3>
-      <span>2 Meses</span>
-    </div>
-
-  </div>
-
-  <div class="offer-badge">🔥 OFERTA</div>
-
-  <div class="price-box">
-    <del>$10.000</del>
-    <strong>$7.500</strong>
-  </div>
-
-  <p class="description">
-    Disfrutá Prime Video durante 2 meses.
-  </p>
-
-  <button onclick="buy('Prime Video — 2 Meses',7500)">
-    Comprar
-  </button>
-
-</article>
-
-
-<!-- PRIME 3 MESES -->
-
-<article class="stream-card">
-
-  <div class="card-head">
-
-    <div class="service-icon prime">P</div>
-
-    <div>
-      <h3>Prime Video</h3>
-      <span>3 Meses</span>
-    </div>
-
-  </div>
-
-  <div class="offer-badge">🔥 OFERTA</div>
-
-  <div class="price-box">
-    <del>$12.000</del>
-    <strong>$9.500</strong>
-  </div>
-
-  <p class="description">
-    Disfrutá Prime Video durante 3 meses.
-  </p>
-
-  <button onclick="buy('Prime Video — 3 Meses',9500)">
-    Comprar
-  </button>
-
-</article>
-
-
-<!-- PARAMOUNT -->
-
-<article class="stream-card">
-
-  <div class="card-head">
-
-    <div class="service-icon paramount">P+</div>
-
-    <div>
-      <h3>Paramount+</h3>
-      <span>1 Mes</span>
-    </div>
-
-  </div>
-
-  <div class="offer-badge">🔥 OFERTA</div>
-
-  <div class="price-box">
-    <del>$8.000</del>
-    <strong>$6.500</strong>
-  </div>
-
-  <p class="description">
-    Series, películas y contenido exclusivo.
-  </p>
-
-  <button onclick="buy('Paramount+ — 1 Mes',6500)">
-    Comprar
-  </button>
-
-</article>
-
-
-<!-- VIX -->
-
-<article class="stream-card">
-
-  <div class="card-head">
-
-    <div class="service-icon vix">VIX</div>
-
-    <div>
-      <h3>ViX</h3>
-      <span>1 Mes</span>
-    </div>
-
-  </div>
-
-  <div class="offer-badge">🔥 OFERTA</div>
-
-  <div class="price-box">
-    <del>$7.000</del>
-    <strong>$4.500</strong>
-  </div>
-
-  <p class="description">
-    Contenido en español, series y películas.
-  </p>
-
-  <button onclick="buy('ViX — 1 Mes',4500)">
-    Comprar
-  </button>
-
-</article>
-
-
-<!-- APPLE TV -->
-
-<article class="stream-card">
-
-  <div class="card-head">
-
-    <div class="service-icon apple"></div>
-
-    <div>
-      <h3>Apple TV</h3>
-      <span>1 Mes</span>
-    </div>
-
-  </div>
-
-  <div class="offer-badge">🔥 OFERTA</div>
-
-  <div class="price-box">
-    <del>$7.000</del>
-    <strong>$4.500</strong>
-  </div>
-
-  <p class="description">
-    Series, películas y producciones exclusivas de Apple.
-  </p>
-
-  <button onclick="buy('Apple TV — 1 Mes',4500)">
-    Comprar
-  </button>
-
-</article>
-
-
-<!-- YOUTUBE -->
-
-<article class="stream-card">
-
-  <div class="card-head">
-
-    <div class="service-icon youtube">▶</div>
-
-    <div>
-      <h3>YouTube Premium</h3>
-      <span>1 Mes</span>
-    </div>
-
-  </div>
-
-  <div class="offer-badge">🔥 OFERTA</div>
-
-  <div class="price-box">
-    <del>$7.500</del>
-    <strong>$5.000</strong>
-  </div>
-
-  <p class="description">
-    YouTube sin anuncios y más beneficios.
-  </p>
-
-  <button onclick="buy('YouTube Premium — 1 Mes',5000)">
-    Comprar
-  </button>
-
-</article>
-
-
-  </div>
-</section>
-
-
-<!-- PROCESO -->
-
-<section class="process">
-
-  <div class="section-heading">
-
-    <label>02 / PROCESO</label>
-
-    <h2>¿Cómo comprar?</h2>
-
-  </div>
-
-
-  <div class="steps">
-
-    <div class="step">
-      <span>01</span>
-      <div>
-        <h3>Elegí</h3>
-        <p>Seleccioná el servicio que querés contratar.</p>
       </div>
+    </section>
+
+
+    <!-- CATALOGO -->
+    <section id="catalogo" class="catalog-section">
+      <div class="container">
+
+        <div class="section-heading">
+          <div>
+            <span class="section-label">CATÁLOGO</span>
+            <h2>Elegí Tu Servicio</h2>
+          </div>
+
+          <span class="section-count">
+            9 Servicios · 13 Planes
+          </span>
+        </div>
+
+
+        <div class="catalog-grid">
+
+
+          <!-- NETFLIX -->
+          <article class="stream-card">
+
+            <div class="service-icon netflix">
+              N
+            </div>
+
+            <div class="card-content">
+
+              <div class="card-top">
+                <span class="service-name">
+                  Netflix Premium 4K
+                </span>
+
+                <span class="offer-badge">
+                  OFERTA
+                </span>
+              </div>
+
+              <span class="duration">
+                1 Mes
+              </span>
+
+              <div class="price">
+                <del>$13.000</del>
+                <strong>$10.000</strong>
+              </div>
+
+              <button
+                class="buy-button"
+                onclick="buy('Netflix Premium 4K — 1 Mes', 10000)"
+              >
+                Comprar Ahora
+              </button>
+
+            </div>
+
+          </article>
+
+
+          <!-- DISNEY ESTANDAR -->
+          <article class="stream-card">
+
+            <div class="service-icon disney">
+              D+
+            </div>
+
+            <div class="card-content">
+
+              <div class="card-top">
+                <span class="service-name">
+                  Disney+ Estándar
+                </span>
+
+                <span class="offer-badge">
+                  OFERTA
+                </span>
+              </div>
+
+              <span class="duration">
+                1 Mes
+              </span>
+
+              <div class="price">
+                <del>$8.000</del>
+                <strong>$6.000</strong>
+              </div>
+
+              <button
+                class="buy-button"
+                onclick="buy('Disney+ Estándar — 1 Mes', 6000)"
+              >
+                Comprar Ahora
+              </button>
+
+            </div>
+
+          </article>
+
+
+          <!-- DISNEY PREMIUM -->
+          <article class="stream-card">
+
+            <div class="service-icon disney">
+              D+
+            </div>
+
+            <div class="card-content">
+
+              <div class="card-top">
+                <span class="service-name">
+                  Disney+ Premium
+                </span>
+
+                <span class="offer-badge">
+                  OFERTA
+                </span>
+              </div>
+
+              <span class="duration">
+                1 Mes
+              </span>
+
+              <div class="price">
+                <del>$9.000</del>
+                <strong>$6.500</strong>
+              </div>
+
+              <button
+                class="buy-button"
+                onclick="buy('Disney+ Premium — 1 Mes', 6500)"
+              >
+                Comprar Ahora
+              </button>
+
+            </div>
+
+          </article>
+
+
+          <!-- HBO 1 MES -->
+          <article class="stream-card">
+
+            <div class="service-icon hbo">
+              MAX
+            </div>
+
+            <div class="card-content">
+
+              <div class="card-top">
+                <span class="service-name">
+                  HBO Max
+                </span>
+
+                <span class="offer-badge">
+                  OFERTA
+                </span>
+              </div>
+
+              <span class="duration">
+                1 Mes
+              </span>
+
+              <div class="price">
+                <del>$7.000</del>
+                <strong>$5.000</strong>
+              </div>
+
+              <button
+                class="buy-button"
+                onclick="buy('HBO Max — 1 Mes', 5000)"
+              >
+                Comprar Ahora
+              </button>
+
+            </div>
+
+          </article>
+
+
+          <!-- HBO 2 MESES -->
+          <article class="stream-card">
+
+            <div class="service-icon hbo">
+              MAX
+            </div>
+
+            <div class="card-content">
+
+              <div class="card-top">
+                <span class="service-name">
+                  HBO Max
+                </span>
+
+                <span class="offer-badge">
+                  OFERTA
+                </span>
+              </div>
+
+              <span class="duration">
+                2 Meses
+              </span>
+
+              <div class="price">
+                <del>$10.000</del>
+                <strong>$7.500</strong>
+              </div>
+
+              <button
+                class="buy-button"
+                onclick="buy('HBO Max — 2 Meses', 7500)"
+              >
+                Comprar Ahora
+              </button>
+
+            </div>
+
+          </article>
+
+
+          <!-- HBO 3 MESES -->
+          <article class="stream-card">
+
+            <div class="service-icon hbo">
+              MAX
+            </div>
+
+            <div class="card-content">
+
+              <div class="card-top">
+                <span class="service-name">
+                  HBO Max
+                </span>
+
+                <span class="offer-badge">
+                  OFERTA
+                </span>
+              </div>
+
+              <span class="duration">
+                3 Meses
+              </span>
+
+              <div class="price">
+                <del>$12.000</del>
+                <strong>$9.500</strong>
+              </div>
+
+              <button
+                class="buy-button"
+                onclick="buy('HBO Max — 3 Meses', 9500)"
+              >
+                Comprar Ahora
+              </button>
+
+            </div>
+
+          </article>
+
+
+          <!-- PRIME 1 MES -->
+          <article class="stream-card">
+
+            <div class="service-icon prime">
+              ▶
+            </div>
+
+            <div class="card-content">
+
+              <div class="card-top">
+                <span class="service-name">
+                  Prime Video
+                </span>
+
+                <span class="offer-badge">
+                  OFERTA
+                </span>
+              </div>
+
+              <span class="duration">
+                1 Mes
+              </span>
+
+              <div class="price">
+                <del>$7.000</del>
+                <strong>$5.000</strong>
+              </div>
+
+              <button
+                class="buy-button"
+                onclick="buy('Prime Video — 1 Mes', 5000)"
+              >
+                Comprar Ahora
+              </button>
+
+            </div>
+
+          </article>
+
+
+          <!-- PRIME 2 MESES -->
+          <article class="stream-card">
+
+            <div class="service-icon prime">
+              ▶
+            </div>
+
+            <div class="card-content">
+
+              <div class="card-top">
+                <span class="service-name">
+                  Prime Video
+                </span>
+
+                <span class="offer-badge">
+                  OFERTA
+                </span>
+              </div>
+
+              <span class="duration">
+                2 Meses
+              </span>
+
+              <div class="price">
+                <del>$10.000</del>
+                <strong>$7.500</strong>
+              </div>
+
+              <button
+                class="buy-button"
+                onclick="buy('Prime Video — 2 Meses', 7500)"
+              >
+                Comprar Ahora
+              </button>
+
+            </div>
+
+          </article>
+
+
+          <!-- PRIME 3 MESES -->
+          <article class="stream-card">
+
+            <div class="service-icon prime">
+              ▶
+            </div>
+
+            <div class="card-content">
+
+              <div class="card-top">
+                <span class="service-name">
+                  Prime Video
+                </span>
+
+                <span class="offer-badge">
+                  OFERTA
+                </span>
+              </div>
+
+              <span class="duration">
+                3 Meses
+              </span>
+
+              <div class="price">
+                <del>$12.000</del>
+                <strong>$9.500</strong>
+              </div>
+
+              <button
+                class="buy-button"
+                onclick="buy('Prime Video — 3 Meses', 9500)"
+              >
+                Comprar Ahora
+              </button>
+
+            </div>
+
+          </article>
+
+
+          <!-- PARAMOUNT -->
+          <article class="stream-card">
+
+            <div class="service-icon paramount">
+              P+
+            </div>
+
+            <div class="card-content">
+
+              <div class="card-top">
+                <span class="service-name">
+                  Paramount+
+                </span>
+
+                <span class="offer-badge">
+                  OFERTA
+                </span>
+              </div>
+
+              <span class="duration">
+                1 Mes
+              </span>
+
+              <div class="price">
+                <del>$8.000</del>
+                <strong>$6.500</strong>
+              </div>
+
+              <button
+                class="buy-button"
+                onclick="buy('Paramount+ — 1 Mes', 6500)"
+              >
+                Comprar Ahora
+              </button>
+
+            </div>
+
+          </article>
+
+
+          <!-- VIX -->
+          <article class="stream-card">
+
+            <div class="service-icon vix">
+              ViX
+            </div>
+
+            <div class="card-content">
+
+              <div class="card-top">
+                <span class="service-name">
+                  ViX
+                </span>
+
+                <span class="offer-badge">
+                  OFERTA
+                </span>
+              </div>
+
+              <span class="duration">
+                1 Mes
+              </span>
+
+              <div class="price">
+                <del>$7.000</del>
+                <strong>$4.500</strong>
+              </div>
+
+              <button
+                class="buy-button"
+                onclick="buy('ViX — 1 Mes', 4500)"
+              >
+                Comprar Ahora
+              </button>
+
+            </div>
+
+          </article>
+
+
+          <!-- APPLE TV -->
+          <article class="stream-card">
+
+            <div class="service-icon apple">
+              
+            </div>
+
+            <div class="card-content">
+
+              <div class="card-top">
+                <span class="service-name">
+                  Apple TV
+                </span>
+
+                <span class="offer-badge">
+                  OFERTA
+                </span>
+              </div>
+
+              <span class="duration">
+                1 Mes
+              </span>
+
+              <div class="price">
+                <del>$7.000</del>
+                <strong>$4.500</strong>
+              </div>
+
+              <button
+                class="buy-button"
+                onclick="buy('Apple TV — 1 Mes', 4500)"
+              >
+                Comprar Ahora
+              </button>
+
+            </div>
+
+          </article>
+
+
+          <!-- YOUTUBE -->
+          <article class="stream-card">
+
+            <div class="service-icon youtube">
+              ▶
+            </div>
+
+            <div class="card-content">
+
+              <div class="card-top">
+                <span class="service-name">
+                  YouTube Premium
+                </span>
+
+                <span class="offer-badge">
+                  OFERTA
+                </span>
+              </div>
+
+              <span class="duration">
+                1 Mes
+              </span>
+
+              <div class="price">
+                <del>$7.500</del>
+                <strong>$5.000</strong>
+              </div>
+
+              <button
+                class="buy-button"
+                onclick="buy('YouTube Premium — 1 Mes', 5000)"
+              >
+                Comprar Ahora
+              </button>
+
+            </div>
+
+          </article>
+
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- COMO FUNCIONA -->
+    <section class="steps-section">
+
+      <div class="container">
+
+        <div class="section-heading centered">
+          <div>
+            <span class="section-label">
+              SIMPLE Y RÁPIDO
+            </span>
+
+            <h2>
+              ¿Cómo Funciona?
+            </h2>
+          </div>
+        </div>
+
+
+        <div class="steps-grid">
+
+          <div class="step">
+
+            <span class="step-number">
+              01
+            </span>
+
+            <div class="step-icon">
+              🎬
+            </div>
+
+            <h3>
+              Elegí
+            </h3>
+
+            <p>
+              Seleccioná El Servicio Y Plan Que Querés Contratar.
+            </p>
+
+          </div>
+
+
+          <div class="step">
+
+            <span class="step-number">
+              02
+            </span>
+
+            <div class="step-icon">
+              💳
+            </div>
+
+            <h3>
+              Pagá
+            </h3>
+
+            <p>
+              Realizá El Pago De Forma Rápida Y Segura.
+            </p>
+
+          </div>
+
+
+          <div class="step">
+
+            <span class="step-number">
+              03
+            </span>
+
+            <div class="step-icon">
+              📱
+            </div>
+
+            <h3>
+              Confirmá
+            </h3>
+
+            <p>
+              Enviá El Comprobante Por WhatsApp Y Recibí Tu Servicio.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- INFORMACION -->
+    <section class="info-section">
+
+      <div class="container">
+
+        <div class="info-box">
+
+          <div class="info-icon">
+            ℹ
+          </div>
+
+          <div>
+            <h3>
+              Importante
+            </h3>
+
+            <p>
+              Después De Realizar El Pago, Enviá El Comprobante
+              Por WhatsApp Para Poder Procesar Tu Contratación.
+            </p>
+
+            <p>
+              STREAMNET Es Un Servicio Independiente Y No Representa
+              Oficialmente A Las Plataformas Mencionadas.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CONTACTO -->
+    <section class="contact-section">
+
+      <div class="container contact-content">
+
+        <span class="section-label">
+          ¿NECESITÁS AYUDA?
+        </span>
+
+        <h2>
+          Estamos Para Ayudarte.
+        </h2>
+
+        <p>
+          Si Tenés Alguna Consulta Sobre Los Servicios,
+          Escribinos Por WhatsApp.
+        </p>
+
+        <a
+          href="https://wa.me/5493844546841"
+          target="_blank"
+          rel="noopener"
+          class="whatsapp-button"
+        >
+          💬 Contactar Por WhatsApp
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+
+    <div class="container footer-inner">
+
+      <div>
+
+        <div class="logo">
+          STREAM<span>NET</span>
+        </div>
+
+        <p>
+          Tu Entretenimiento, En Un Solo Lugar.
+        </p>
+
+      </div>
+
+
+      <div class="footer-links">
+
+        <a href="#catalogo">
+          Catálogo
+        </a>
+
+        <a
+          href="https://www.instagram.com/cergio.oficial__/"
+          target="_blank"
+          rel="noopener"
+        >
+          Instagram
+        </a>
+
+        <a
+          href="https://wa.me/5493844546841"
+          target="_blank"
+          rel="noopener"
+        >
+          WhatsApp
+        </a>
+
+      </div>
+
     </div>
 
-    <div class="step">
-      <span>02</span>
-      <div>
-        <h3>Pagá</h3>
-        <p>Realizá el pago mediante Mercado Pago.</p>
-      </div>
+
+    <div class="container copyright">
+
+      © 2026 STREAMNET. Todos Los Derechos Reservados.
+
     </div>
 
-    <div class="step">
-      <span>03</span>
-      <div>
-        <h3>Confirmá</h3>
-        <p>Enviá el comprobante por WhatsApp.</p>
-      </div>
-    </div>
-
-  </div>
-
-</section>
+  </footer>
 
 
-<!-- INFORMACION -->
+  <!-- MODAL DE COMPRA -->
+  <div
+    class="modal"
+    id="purchaseModal"
+    aria-hidden="true"
+  >
 
-<section class="info">
+    <div class="modal-overlay" onclick="closeModal()"></div>
 
-  <label>03 / INFORMACIÓN</label>
+    <div class="modal-box">
 
-  <h2>Antes de contratar</h2>
-
-  <p>
-    Los servicios y condiciones de acceso pueden variar según
-    el producto contratado. Consultá cualquier duda antes de realizar el pago.
-  </p>
-
-  <div class="info-note">
-
-    <span>!</span>
-
-    <p>
-      Las cuentas, perfiles o accesos ofrecidos deben utilizarse
-      respetando las condiciones de servicio de cada plataforma.
-    </p>
-
-  </div>
-
-</section>
-
-
-<!-- CONTACTO -->
-
-<section class="contact">
-
-  <div>
-
-    <label>04 / CONTACTO</label>
-
-    <h2>¿Necesitás ayuda?</h2>
-
-    <p>
-      Consultas, contrataciones y comprobantes.
-    </p>
-
-  </div>
-
-
-  <div class="contact-buttons">
-
-    <a
-      class="contact-btn whatsapp"
-      href="https://wa.me/5493844546841"
-      target="_blank"
-      rel="noopener">
-
-      <span>🟢</span>
-
-      <div>
-        <strong>WhatsApp</strong>
-        <small>Consultas y contratación</small>
-      </div>
-
-    </a>
-
-
-    <a
-      class="contact-btn instagram"
-      href="https://www.instagram.com/cergio.oficial__/"
-      target="_blank"
-      rel="noopener">
-
-      <span>📸</span>
-
-      <div>
-        <strong>Instagram</strong>
-        <small>@cergio.oficial__</small>
-      </div>
-
-    </a>
-
-  </div>
-
-</section>
-
-</main>
-
-
-<!-- FOOTER -->
-
-<footer>
-
-  <div class="footer-brand">
-
-    <div class="logo">
-      STREAM<span>NET</span>
-    </div>
-
-    <span>Streaming & Entretenimiento</span>
-
-  </div>
-
-  <span>© 2026 · Servicio independiente</span>
-
-</footer>
-
-
-<!-- MODAL DE COMPRA -->
-
-<div id="modal" class="overlay hidden">
-
-  <div class="modal">
-
-    <button class="x" onclick="closeModal()">×</button>
-
-    <label>CONTRATACIÓN</label>
-
-    <h2 id="modalTitle">Servicio</h2>
-
-    <div class="modal-price" id="modalPrice">$0</div>
-
-
-    <form id="form">
-
-      <label class="input-label" for="customerName">
-        Nombre
-      </label>
-
-      <input
-        id="customerName"
-        required
-        minlength="2"
-        placeholder="Tu nombre">
-
-
-      <label class="input-label" for="customerPhone">
-        WhatsApp
-      </label>
-
-      <input
-        id="customerPhone"
-        required
-        inputmode="tel"
-        placeholder="Ej. 11 1234 5678">
-
-
-      <button class="cta full" type="submit">
-        Continuar al pago
+      <button
+        class="modal-close"
+        onclick="closeModal()"
+        aria-label="Cerrar"
+      >
+        ×
       </button>
 
-    </form>
+
+      <span class="section-label">
+        CONTRATACIÓN
+      </span>
+
+      <h2>
+        Confirmá Tu Compra
+      </h2>
+
+      <div class="selected-product">
+
+        <span id="selectedName">
+          Servicio
+        </span>
+
+        <strong id="selectedPrice">
+          $0
+        </strong>
+
+      </div>
 
 
-    <p class="hint">
-      Después del pago podrás enviar el comprobante por WhatsApp.
-    </p>
+      <form id="purchaseForm">
 
-    <div id="err" class="error"></div>
+        <label for="customerName">
+          Tu Nombre
+        </label>
+
+        <input
+          type="text"
+          id="customerName"
+          placeholder="Ingresá Tu Nombre"
+          required
+        >
+
+
+        <label for="customerPhone">
+          Tu WhatsApp
+        </label>
+
+        <input
+          type="tel"
+          id="customerPhone"
+          placeholder="Ej: 3844 123456"
+          required
+        >
+
+
+        <button
+          type="submit"
+          class="modal-buy-button"
+        >
+          Continuar Al Pago
+        </button>
+
+      </form>
+
+
+      <p class="modal-note">
+        Después Del Pago Deberás Enviar El Comprobante
+        Por WhatsApp.
+      </p>
+
+    </div>
 
   </div>
 
-</div>
 
+  <!-- MODAL DESPUÉS DEL PAGO -->
+  <div
+    class="modal"
+    id="afterPaymentModal"
+    aria-hidden="true"
+  >
 
-<script>
+    <div class="modal-overlay"></div>
 
-const MP_LINK = "https://link.mercadopago.com.ar/pirunet";
+    <div class="modal-box success-box">
 
-const ADMIN_WHATSAPP = "https://wa.me/5493844546841";
+      <div class="success-icon">
+        ✓
+      </div>
 
-let selected = {};
-
-
-function money(n){
-
-  return "$" + n.toLocaleString("es-AR");
-
-}
-
-
-function buy(name, price){
-
-  selected = {
-    name,
-    price
-  };
-
-  document.getElementById("modalTitle").textContent = name;
-
-  document.getElementById("modalPrice").textContent = money(price);
-
-  document.getElementById("err").textContent = "";
-
-  document.getElementById("modal").classList.remove("hidden");
-
-  document.body.style.overflow = "hidden";
-
-}
-
-
-function closeModal(){
-
-  document.getElementById("modal").classList.add("hidden");
-
-  document.body.style.overflow = "";
-
-}
-
-
-document.getElementById("modal").addEventListener("click", e => {
-
-  if(e.target.id === "modal"){
-
-    closeModal();
-
-  }
-
-});
-
-
-document.getElementById("form").addEventListener("submit", e => {
-
-  e.preventDefault();
-
-
-  const name =
-    document.getElementById("customerName").value.trim();
-
-
-  const phone =
-    document.getElementById("customerPhone").value.trim();
-
-
-  if(
-    !MP_LINK.includes("link.mercadopago.com.ar/")
-    ||
-    MP_LINK.includes("REEMPLAZAR")
-  ){
-
-    document.getElementById("err").textContent =
-      "Configurá tu link de pago de Mercado Pago en index.html.";
-
-    return;
-
-  }
-
-
-  const message =
-`🎬 NUEVA CONTRATACIÓN
-
-👤 Cliente: ${name}
-📱 WhatsApp: ${phone}
-🎬 Servicio: ${selected.name}
-💰 Total: ${money(selected.price)}
-
-✅ Voy a enviar el comprobante de pago.`;
-
-
-  const wa =
-    `${ADMIN_WHATSAPP}?text=${encodeURIComponent(message)}`;
-
-
-  sessionStorage.setItem("orderMessage", message);
-
-  sessionStorage.setItem("orderWA", wa);
-
-
-  window.open(MP_LINK, "_blank");
-
-  closeModal();
-
-
-  setTimeout(() => {
-
-    showAfterPay();
-
-  }, 500);
-
-});
-
-
-function showAfterPay(){
-
-  const old = document.getElementById("after");
-
-
-  if(old){
-
-    old.remove();
-
-  }
-
-
-  const box = document.createElement("div");
-
-  box.id = "after";
-
-  box.className = "after";
-
-
-  box.innerHTML = `
-
-    <div class="afterbox">
-
-      <div class="check">✓</div>
-
-      <label>PAGO</label>
-
-      <h2>¿Ya realizaste el pago?</h2>
+      <h2>
+        Pago Realizado
+      </h2>
 
       <p>
-        Cuando termines en Mercado Pago, enviá el comprobante
-        por WhatsApp para procesar tu contratación.
+        Ahora Enviá El Comprobante De Pago Por WhatsApp
+        Para Confirmar Tu Contratación.
       </p>
 
       <a
-        class="cta full"
-        href="${sessionStorage.getItem("orderWA")}"
-        target="_blank">
-
-        Enviar comprobante
-
+        href="#"
+        id="whatsappConfirm"
+        target="_blank"
+        rel="noopener"
+        class="whatsapp-button"
+      >
+        💬 Enviar Comprobante
       </a>
 
-
       <button
-        class="secondary"
-        onclick="document.getElementById('after').remove()">
-
+        class="text-button"
+        onclick="closeAfterPayment()"
+      >
         Cerrar
-
       </button>
 
     </div>
 
-  `;
+  </div>
 
 
-  document.body.appendChild(box);
+  <script>
 
-}
+    const MP_LINK =
+      "https://link.mercadopago.com.ar/pirunet";
 
-</script>
+    const ADMIN_WHATSAPP =
+      "https://wa.me/5493844546841";
 
-</body>
-</html>
+
+    let selected = {
+      name: "",
+      price: 0
+    };
+
+
+    function money(value) {
+
+      return new Intl.NumberFormat("es-AR", {
+        style: "currency",
+        currency: "ARS",
+        maximumFractionDigits: 0
+      }).format(value);
+
+    }
+
+
+    function buy(name, price) {
+
+      selected.name = name;
+      selected.price = price;
+
+      document.getElementById("selectedName").textContent =
+        name;
+
+      document.getElementById("selectedPrice").textContent =
+        money(price);
+
+      const modal =
+        document.getElementById("purchaseModal");
+
+      modal.classList.add("active");
+      modal.setAttribute("aria-hidden", "false");
+
+      document.body.classList.add("modal-open");
+
+    }
+
+
+    function closeModal() {
+
+      const modal =
+        document.getElementById("purchaseModal");
+
+      modal.classList.remove("active");
+      modal.setAttribute("aria-hidden
