@@ -3,677 +3,699 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#06080c">
 
-  <title>STREAMNET — Cuentas De Streaming</title>
-
-  <meta
-    name="description"
-    content="Contratá Tus Servicios De Streaming En STREAMNET. Ofertas Especiales Y Atención Por WhatsApp."
-  >
+  <title>STREAMNET | Cuentas De Streaming</title>
+  <meta name="description" content="Cuentas De Streaming Premium. Netflix, Disney+, HBO Max, Prime Video, Paramount+, ViX, Apple TV+ Y YouTube Premium.">
 
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <!-- HEADER -->
-  <header class="site-header">
-    <div class="container header-inner">
+  <!-- =========================
+       HEADER
+  ========================== -->
+  <header class="header">
+    <div class="container nav">
 
-      <a href="#" class="logo">
-        STREAM<span>NET</span>
+      <a href="#inicio" class="logo">
+        <span class="logo-mark">S</span>
+        <span>STREAMNET</span>
       </a>
 
-      <a href="#catalogo" class="header-button">
-        Ver Catálogo
+      <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#como-comprar">Cómo Comprar</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <a
+        class="nav-button"
+        href="https://wa.me/5493844546841"
+        target="_blank"
+        rel="noopener"
+      >
+        WhatsApp
       </a>
 
     </div>
   </header>
 
 
-  <!-- HERO -->
+  <!-- =========================
+       HERO
+  ========================== -->
   <main>
 
-    <section class="hero">
+    <section id="inicio" class="hero">
       <div class="container hero-content">
 
         <div class="hero-badge">
-          🎬 STREAMING PREMIUM
+          <span></span>
+          SERVICIO DIGITAL
         </div>
 
         <h1>
           Todo Tu<br>
-          <span>Entretenimiento.</span>
+          <strong>Entretenimiento.</strong>
         </h1>
 
         <p>
-          Elegí Tu Servicio Favorito, Realizá El Pago Y
-          Confirmá Tu Compra Por WhatsApp.
+          Elegí Tu Plataforma Favorita Y Disfrutá De Tus Series,
+          Películas Y Contenido Preferido.
         </p>
 
-        <a href="#catalogo" class="hero-button">
-          Explorar Catálogo
-          <span>↓</span>
-        </a>
+        <div class="hero-buttons">
+
+          <a href="#catalogo" class="btn primary">
+            Ver Catálogo
+            <span>→</span>
+          </a>
+
+          <a
+            href="https://wa.me/5493844546841"
+            target="_blank"
+            rel="noopener"
+            class="btn secondary"
+          >
+            Consultar Por WhatsApp
+          </a>
+
+        </div>
+
+        <div class="hero-stats">
+          <div>
+            <strong>9</strong>
+            <span>Plataformas</span>
+          </div>
+
+          <div>
+            <strong>13</strong>
+            <span>Planes</span>
+          </div>
+
+          <div>
+            <strong>24/7</strong>
+            <span>Atención</span>
+          </div>
+        </div>
 
       </div>
     </section>
 
 
-    <!-- CATÁLOGO -->
-    <section id="catalogo" class="catalog-section">
+    <!-- =========================
+         CATÁLOGO
+    ========================== -->
+    <section id="catalogo" class="catalog section">
 
       <div class="container">
 
         <div class="section-heading">
-
           <div>
-            <span class="section-label">
-              CATÁLOGO
-            </span>
-
-            <h2>
-              Elegí Tu Servicio
-            </h2>
+            <span class="eyebrow">CATÁLOGO</span>
+            <h2>Elegí Tu Plataforma</h2>
           </div>
 
-          <span class="section-count">
-            9 Servicios · 13 Planes
-          </span>
-
+          <p>
+            Precios Actualizados Y Ofertas Especiales.
+          </p>
         </div>
 
 
-        <div class="catalog-grid">
+        <div class="products-grid">
 
 
           <!-- NETFLIX -->
-          <article class="stream-card">
+          <article class="product-card">
 
-            <div class="service-icon netflix">
-              <img
-                src="https://cdn.simpleicons.org/netflix"
-                alt="Netflix"
-              >
-            </div>
+            <div class="product-top">
 
-            <div class="card-content">
-
-              <div class="card-top">
-
-                <span class="service-name">
-                  Netflix Premium 4K
-                </span>
-
-                <span class="offer-badge">
-                  OFERTA
-                </span>
-
+              <div class="service-icon netflix">
+                <svg viewBox="0 0 64 64" aria-label="Netflix">
+                  <rect width="64" height="64" rx="16" fill="#000"/>
+                  <path d="M18 12h9l19 30V12h9v40h-9L27 22v30h-9z" fill="#E50914"/>
+                </svg>
               </div>
 
-              <span class="duration">
-                1 Mes
-              </span>
-
-              <div class="price">
-                <del>$13.000</del>
-                <strong>$10.000</strong>
-              </div>
-
-              <button
-                class="buy-button"
-                onclick="buy('Netflix Premium 4K — 1 Mes', 10000)"
-              >
-                Comprar Ahora
-              </button>
+              <span class="platform-tag">PREMIUM</span>
 
             </div>
+
+            <h3>Netflix Premium 4K</h3>
+            <p class="duration">1 Mes</p>
+
+            <div class="price">
+              <del>$13.000</del>
+              <strong>$10.000</strong>
+            </div>
+
+            <button
+              class="buy-button"
+              onclick="buy('Netflix Premium 4K — 1 Mes', 10000)"
+            >
+              Comprar
+            </button>
 
           </article>
 
 
-          <!-- DISNEY ESTÁNDAR -->
-          <article class="stream-card">
+          <!-- DISNEY STANDARD -->
+          <article class="product-card">
 
-            <div class="service-icon disney">
-              <img
-                src="https://cdn.simpleicons.org/disneyplus"
-                alt="Disney+"
-              >
-            </div>
+            <div class="product-top">
 
-            <div class="card-content">
-
-              <div class="card-top">
-
-                <span class="service-name">
-                  Disney+ Estándar
-                </span>
-
-                <span class="offer-badge">
-                  OFERTA
-                </span>
-
+              <div class="service-icon disney">
+                <svg viewBox="0 0 64 64" aria-label="Disney Plus">
+                  <rect width="64" height="64" rx="16" fill="#071A45"/>
+                  <path
+                    d="M10 37c7-15 20-23 40-23"
+                    fill="none"
+                    stroke="#fff"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                  />
+                  <text
+                    x="32"
+                    y="39"
+                    text-anchor="middle"
+                    fill="#fff"
+                    font-size="14"
+                    font-weight="700"
+                    font-family="Arial"
+                  >Disney+</text>
+                </svg>
               </div>
 
-              <span class="duration">
-                1 Mes
-              </span>
-
-              <div class="price">
-                <del>$8.000</del>
-                <strong>$6.000</strong>
-              </div>
-
-              <button
-                class="buy-button"
-                onclick="buy('Disney+ Estándar — 1 Mes', 6000)"
-              >
-                Comprar Ahora
-              </button>
+              <span class="platform-tag">ESTÁNDAR</span>
 
             </div>
+
+            <h3>Disney+ Estándar</h3>
+            <p class="duration">1 Mes</p>
+
+            <div class="price">
+              <del>$8.000</del>
+              <strong>$6.000</strong>
+            </div>
+
+            <button
+              class="buy-button"
+              onclick="buy('Disney+ Estándar — 1 Mes', 6000)"
+            >
+              Comprar
+            </button>
 
           </article>
 
 
           <!-- DISNEY PREMIUM -->
-          <article class="stream-card">
+          <article class="product-card">
 
-            <div class="service-icon disney">
-              <img
-                src="https://cdn.simpleicons.org/disneyplus"
-                alt="Disney+"
-              >
-            </div>
+            <div class="product-top">
 
-            <div class="card-content">
-
-              <div class="card-top">
-
-                <span class="service-name">
-                  Disney+ Premium
-                </span>
-
-                <span class="offer-badge">
-                  OFERTA
-                </span>
-
+              <div class="service-icon disney">
+                <svg viewBox="0 0 64 64" aria-label="Disney Plus Premium">
+                  <rect width="64" height="64" rx="16" fill="#071A45"/>
+                  <path
+                    d="M10 37c7-15 20-23 40-23"
+                    fill="none"
+                    stroke="#fff"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                  />
+                  <text
+                    x="32"
+                    y="39"
+                    text-anchor="middle"
+                    fill="#fff"
+                    font-size="14"
+                    font-weight="700"
+                    font-family="Arial"
+                  >Disney+</text>
+                </svg>
               </div>
 
-              <span class="duration">
-                1 Mes
-              </span>
-
-              <div class="price">
-                <del>$9.000</del>
-                <strong>$6.500</strong>
-              </div>
-
-              <button
-                class="buy-button"
-                onclick="buy('Disney+ Premium — 1 Mes', 6500)"
-              >
-                Comprar Ahora
-              </button>
+              <span class="platform-tag">PREMIUM</span>
 
             </div>
+
+            <h3>Disney+ Premium</h3>
+            <p class="duration">1 Mes</p>
+
+            <div class="price">
+              <del>$9.000</del>
+              <strong>$6.500</strong>
+            </div>
+
+            <button
+              class="buy-button"
+              onclick="buy('Disney+ Premium — 1 Mes', 6500)"
+            >
+              Comprar
+            </button>
 
           </article>
 
 
-          <!-- HBO 1 MES -->
-          <article class="stream-card">
+          <!-- HBO 1 -->
+          <article class="product-card">
 
-            <div class="service-icon hbo">
-              <img
-                src="https://cdn.simpleicons.org/hbomax"
-                alt="HBO Max"
-              >
-            </div>
+            <div class="product-top">
 
-            <div class="card-content">
-
-              <div class="card-top">
-
-                <span class="service-name">
-                  HBO Max
-                </span>
-
-                <span class="offer-badge">
-                  OFERTA
-                </span>
-
+              <div class="service-icon hbo">
+                <svg viewBox="0 0 64 64" aria-label="HBO Max">
+                  <rect width="64" height="64" rx="16" fill="#5B21B6"/>
+                  <text
+                    x="32"
+                    y="38"
+                    text-anchor="middle"
+                    fill="#fff"
+                    font-size="18"
+                    font-weight="900"
+                    font-family="Arial"
+                  >MAX</text>
+                </svg>
               </div>
 
-              <span class="duration">
-                1 Mes
-              </span>
-
-              <div class="price">
-                <del>$7.000</del>
-                <strong>$5.000</strong>
-              </div>
-
-              <button
-                class="buy-button"
-                onclick="buy('HBO Max — 1 Mes', 5000)"
-              >
-                Comprar Ahora
-              </button>
+              <span class="platform-tag">POPULAR</span>
 
             </div>
+
+            <h3>HBO Max</h3>
+            <p class="duration">1 Mes</p>
+
+            <div class="price">
+              <del>$7.000</del>
+              <strong>$5.000</strong>
+            </div>
+
+            <button
+              class="buy-button"
+              onclick="buy('HBO Max — 1 Mes', 5000)"
+            >
+              Comprar
+            </button>
 
           </article>
 
 
-          <!-- HBO 2 MESES -->
-          <article class="stream-card">
+          <!-- HBO 2 -->
+          <article class="product-card">
 
-            <div class="service-icon hbo">
-              <img
-                src="https://cdn.simpleicons.org/hbomax"
-                alt="HBO Max"
-              >
-            </div>
+            <div class="product-top">
 
-            <div class="card-content">
-
-              <div class="card-top">
-
-                <span class="service-name">
-                  HBO Max
-                </span>
-
-                <span class="offer-badge">
-                  OFERTA
-                </span>
-
+              <div class="service-icon hbo">
+                <svg viewBox="0 0 64 64" aria-label="HBO Max">
+                  <rect width="64" height="64" rx="16" fill="#5B21B6"/>
+                  <text
+                    x="32"
+                    y="38"
+                    text-anchor="middle"
+                    fill="#fff"
+                    font-size="18"
+                    font-weight="900"
+                    font-family="Arial"
+                  >MAX</text>
+                </svg>
               </div>
 
-              <span class="duration">
-                2 Meses
-              </span>
-
-              <div class="price">
-                <del>$10.000</del>
-                <strong>$7.500</strong>
-              </div>
-
-              <button
-                class="buy-button"
-                onclick="buy('HBO Max — 2 Meses', 7500)"
-              >
-                Comprar Ahora
-              </button>
+              <span class="platform-tag">OFERTA</span>
 
             </div>
+
+            <h3>HBO Max</h3>
+            <p class="duration">2 Meses</p>
+
+            <div class="price">
+              <del>$10.000</del>
+              <strong>$7.500</strong>
+            </div>
+
+            <button
+              class="buy-button"
+              onclick="buy('HBO Max — 2 Meses', 7500)"
+            >
+              Comprar
+            </button>
 
           </article>
 
 
-          <!-- HBO 3 MESES -->
-          <article class="stream-card">
+          <!-- HBO 3 -->
+          <article class="product-card featured">
 
-            <div class="service-icon hbo">
-              <img
-                src="https://cdn.simpleicons.org/hbomax"
-                alt="HBO Max"
-              >
+            <div class="popular-label">
+              MEJOR OFERTA
             </div>
 
-            <div class="card-content">
+            <div class="product-top">
 
-              <div class="card-top">
-
-                <span class="service-name">
-                  HBO Max
-                </span>
-
-                <span class="offer-badge">
-                  OFERTA
-                </span>
-
+              <div class="service-icon hbo">
+                <svg viewBox="0 0 64 64" aria-label="HBO Max">
+                  <rect width="64" height="64" rx="16" fill="#5B21B6"/>
+                  <text
+                    x="32"
+                    y="38"
+                    text-anchor="middle"
+                    fill="#fff"
+                    font-size="18"
+                    font-weight="900"
+                    font-family="Arial"
+                  >MAX</text>
+                </svg>
               </div>
 
-              <span class="duration">
-                3 Meses
-              </span>
-
-              <div class="price">
-                <del>$12.000</del>
-                <strong>$9.500</strong>
-              </div>
-
-              <button
-                class="buy-button"
-                onclick="buy('HBO Max — 3 Meses', 9500)"
-              >
-                Comprar Ahora
-              </button>
+              <span class="platform-tag">OFERTA</span>
 
             </div>
+
+            <h3>HBO Max</h3>
+            <p class="duration">3 Meses</p>
+
+            <div class="price">
+              <del>$12.000</del>
+              <strong>$9.500</strong>
+            </div>
+
+            <button
+              class="buy-button"
+              onclick="buy('HBO Max — 3 Meses', 9500)"
+            >
+              Comprar
+            </button>
 
           </article>
 
 
-          <!-- PRIME 1 MES -->
-          <article class="stream-card">
+          <!-- PRIME 1 -->
+          <article class="product-card">
 
-            <div class="service-icon prime">
-              <img
-                src="https://cdn.simpleicons.org/primevideo"
-                alt="Prime Video"
-              >
-            </div>
+            <div class="product-top">
 
-            <div class="card-content">
-
-              <div class="card-top">
-
-                <span class="service-name">
-                  Prime Video
-                </span>
-
-                <span class="offer-badge">
-                  OFERTA
-                </span>
-
+              <div class="service-icon prime">
+                <svg viewBox="0 0 64 64" aria-label="Prime Video">
+                  <rect width="64" height="64" rx="16" fill="#00A8E1"/>
+                  <polygon points="27,21 27,43 46,32" fill="#fff"/>
+                  <path
+                    d="M16 48c10 5 25 5 34 0"
+                    fill="none"
+                    stroke="#fff"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                  />
+                </svg>
               </div>
 
-              <span class="duration">
-                1 Mes
-              </span>
-
-              <div class="price">
-                <del>$7.000</del>
-                <strong>$5.000</strong>
-              </div>
-
-              <button
-                class="buy-button"
-                onclick="buy('Prime Video — 1 Mes', 5000)"
-              >
-                Comprar Ahora
-              </button>
+              <span class="platform-tag">POPULAR</span>
 
             </div>
+
+            <h3>Prime Video</h3>
+            <p class="duration">1 Mes</p>
+
+            <div class="price">
+              <del>$7.000</del>
+              <strong>$5.000</strong>
+            </div>
+
+            <button
+              class="buy-button"
+              onclick="buy('Prime Video — 1 Mes', 5000)"
+            >
+              Comprar
+            </button>
 
           </article>
 
 
-          <!-- PRIME 2 MESES -->
-          <article class="stream-card">
+          <!-- PRIME 2 -->
+          <article class="product-card">
 
-            <div class="service-icon prime">
-              <img
-                src="https://cdn.simpleicons.org/primevideo"
-                alt="Prime Video"
-              >
-            </div>
+            <div class="product-top">
 
-            <div class="card-content">
-
-              <div class="card-top">
-
-                <span class="service-name">
-                  Prime Video
-                </span>
-
-                <span class="offer-badge">
-                  OFERTA
-                </span>
-
+              <div class="service-icon prime">
+                <svg viewBox="0 0 64 64" aria-label="Prime Video">
+                  <rect width="64" height="64" rx="16" fill="#00A8E1"/>
+                  <polygon points="27,21 27,43 46,32" fill="#fff"/>
+                  <path
+                    d="M16 48c10 5 25 5 34 0"
+                    fill="none"
+                    stroke="#fff"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                  />
+                </svg>
               </div>
 
-              <span class="duration">
-                2 Meses
-              </span>
-
-              <div class="price">
-                <del>$10.000</del>
-                <strong>$7.500</strong>
-              </div>
-
-              <button
-                class="buy-button"
-                onclick="buy('Prime Video — 2 Meses', 7500)"
-              >
-                Comprar Ahora
-              </button>
+              <span class="platform-tag">OFERTA</span>
 
             </div>
+
+            <h3>Prime Video</h3>
+            <p class="duration">2 Meses</p>
+
+            <div class="price">
+              <del>$10.000</del>
+              <strong>$7.500</strong>
+            </div>
+
+            <button
+              class="buy-button"
+              onclick="buy('Prime Video — 2 Meses', 7500)"
+            >
+              Comprar
+            </button>
 
           </article>
 
 
-          <!-- PRIME 3 MESES -->
-          <article class="stream-card">
+          <!-- PRIME 3 -->
+          <article class="product-card">
 
-            <div class="service-icon prime">
-              <img
-                src="https://cdn.simpleicons.org/primevideo"
-                alt="Prime Video"
-              >
-            </div>
+            <div class="product-top">
 
-            <div class="card-content">
-
-              <div class="card-top">
-
-                <span class="service-name">
-                  Prime Video
-                </span>
-
-                <span class="offer-badge">
-                  OFERTA
-                </span>
-
+              <div class="service-icon prime">
+                <svg viewBox="0 0 64 64" aria-label="Prime Video">
+                  <rect width="64" height="64" rx="16" fill="#00A8E1"/>
+                  <polygon points="27,21 27,43 46,32" fill="#fff"/>
+                  <path
+                    d="M16 48c10 5 25 5 34 0"
+                    fill="none"
+                    stroke="#fff"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                  />
+                </svg>
               </div>
 
-              <span class="duration">
-                3 Meses
-              </span>
-
-              <div class="price">
-                <del>$12.000</del>
-                <strong>$9.500</strong>
-              </div>
-
-              <button
-                class="buy-button"
-                onclick="buy('Prime Video — 3 Meses', 9500)"
-              >
-                Comprar Ahora
-              </button>
+              <span class="platform-tag">OFERTA</span>
 
             </div>
+
+            <h3>Prime Video</h3>
+            <p class="duration">3 Meses</p>
+
+            <div class="price">
+              <del>$12.000</del>
+              <strong>$9.500</strong>
+            </div>
+
+            <button
+              class="buy-button"
+              onclick="buy('Prime Video — 3 Meses', 9500)"
+            >
+              Comprar
+            </button>
 
           </article>
 
 
           <!-- PARAMOUNT -->
-          <article class="stream-card">
+          <article class="product-card">
 
-            <div class="service-icon paramount">
-              <img
-                src="https://cdn.simpleicons.org/paramountplus"
-                alt="Paramount+"
-              >
-            </div>
+            <div class="product-top">
 
-            <div class="card-content">
-
-              <div class="card-top">
-
-                <span class="service-name">
-                  Paramount+
-                </span>
-
-                <span class="offer-badge">
-                  OFERTA
-                </span>
-
+              <div class="service-icon paramount">
+                <svg viewBox="0 0 64 64" aria-label="Paramount Plus">
+                  <rect width="64" height="64" rx="16" fill="#0064A7"/>
+                  <circle
+                    cx="32"
+                    cy="25"
+                    r="9"
+                    fill="none"
+                    stroke="#fff"
+                    stroke-width="3"
+                  />
+                  <path
+                    d="M18 45c4-9 10-13 14-13s10 4 14 13"
+                    fill="none"
+                    stroke="#fff"
+                    stroke-width="3"
+                  />
+                  <text
+                    x="32"
+                    y="55"
+                    text-anchor="middle"
+                    fill="#fff"
+                    font-size="8"
+                    font-weight="700"
+                    font-family="Arial"
+                  >PARAMOUNT+</text>
+                </svg>
               </div>
 
-              <span class="duration">
-                1 Mes
-              </span>
-
-              <div class="price">
-                <del>$8.000</del>
-                <strong>$6.500</strong>
-              </div>
-
-              <button
-                class="buy-button"
-                onclick="buy('Paramount+ — 1 Mes', 6500)"
-              >
-                Comprar Ahora
-              </button>
+              <span class="platform-tag">PREMIUM</span>
 
             </div>
+
+            <h3>Paramount+</h3>
+            <p class="duration">1 Mes</p>
+
+            <div class="price">
+              <del>$8.000</del>
+              <strong>$6.500</strong>
+            </div>
+
+            <button
+              class="buy-button"
+              onclick="buy('Paramount+ — 1 Mes', 6500)"
+            >
+              Comprar
+            </button>
 
           </article>
 
 
           <!-- VIX -->
-          <article class="stream-card">
+          <article class="product-card">
 
-            <div class="service-icon vix">
-              <img
-                src="https://cdn.simpleicons.org/vix"
-                alt="ViX"
-              >
-            </div>
+            <div class="product-top">
 
-            <div class="card-content">
-
-              <div class="card-top">
-
-                <span class="service-name">
-                  ViX
-                </span>
-
-                <span class="offer-badge">
-                  OFERTA
-                </span>
-
+              <div class="service-icon vix">
+                <svg viewBox="0 0 64 64" aria-label="ViX">
+                  <rect width="64" height="64" rx="16" fill="#FF6B00"/>
+                  <text
+                    x="32"
+                    y="40"
+                    text-anchor="middle"
+                    fill="#fff"
+                    font-size="23"
+                    font-weight="900"
+                    font-family="Arial"
+                  >ViX</text>
+                </svg>
               </div>
 
-              <span class="duration">
-                1 Mes
-              </span>
-
-              <div class="price">
-                <del>$7.000</del>
-                <strong>$4.500</strong>
-              </div>
-
-              <button
-                class="buy-button"
-                onclick="buy('ViX — 1 Mes', 4500)"
-              >
-                Comprar Ahora
-              </button>
+              <span class="platform-tag">OFERTA</span>
 
             </div>
+
+            <h3>ViX</h3>
+            <p class="duration">1 Mes</p>
+
+            <div class="price">
+              <del>$7.000</del>
+              <strong>$4.500</strong>
+            </div>
+
+            <button
+              class="buy-button"
+              onclick="buy('ViX — 1 Mes', 4500)"
+            >
+              Comprar
+            </button>
 
           </article>
 
 
           <!-- APPLE TV -->
-          <article class="stream-card">
+          <article class="product-card">
 
-            <div class="service-icon apple">
-              <img
-                src="https://cdn.simpleicons.org/appletvplus"
-                alt="Apple TV+"
-              >
-            </div>
+            <div class="product-top">
 
-            <div class="card-content">
-
-              <div class="card-top">
-
-                <span class="service-name">
-                  Apple TV
-                </span>
-
-                <span class="offer-badge">
-                  OFERTA
-                </span>
-
+              <div class="service-icon apple">
+                <svg viewBox="0 0 64 64" aria-label="Apple TV Plus">
+                  <rect width="64" height="64" rx="16" fill="#111"/>
+                  <text
+                    x="32"
+                    y="38"
+                    text-anchor="middle"
+                    fill="#fff"
+                    font-size="18"
+                    font-weight="800"
+                    font-family="Arial"
+                  >tv+</text>
+                </svg>
               </div>
 
-              <span class="duration">
-                1 Mes
-              </span>
-
-              <div class="price">
-                <del>$7.000</del>
-                <strong>$4.500</strong>
-              </div>
-
-              <button
-                class="buy-button"
-                onclick="buy('Apple TV — 1 Mes', 4500)"
-              >
-                Comprar Ahora
-              </button>
+              <span class="platform-tag">OFERTA</span>
 
             </div>
+
+            <h3>Apple TV+</h3>
+            <p class="duration">1 Mes</p>
+
+            <div class="price">
+              <del>$7.000</del>
+              <strong>$4.500</strong>
+            </div>
+
+            <button
+              class="buy-button"
+              onclick="buy('Apple TV+ — 1 Mes', 4500)"
+            >
+              Comprar
+            </button>
 
           </article>
 
 
           <!-- YOUTUBE -->
-          <article class="stream-card">
+          <article class="product-card">
 
-            <div class="service-icon youtube">
-              <img
-                src="https://cdn.simpleicons.org/youtube"
-                alt="YouTube Premium"
-              >
-            </div>
+            <div class="product-top">
 
-            <div class="card-content">
-
-              <div class="card-top">
-
-                <span class="service-name">
-                  YouTube Premium
-                </span>
-
-                <span class="offer-badge">
-                  OFERTA
-                </span>
-
+              <div class="service-icon youtube">
+                <svg viewBox="0 0 64 64" aria-label="YouTube Premium">
+                  <rect width="64" height="64" rx="16" fill="#FF0000"/>
+                  <rect
+                    x="13"
+                    y="21"
+                    width="38"
+                    height="24"
+                    rx="8"
+                    fill="#fff"
+                  />
+                  <polygon
+                    points="29,27 29,39 40,33"
+                    fill="#FF0000"
+                  />
+                </svg>
               </div>
 
-              <span class="duration">
-                1 Mes
-              </span>
-
-              <div class="price">
-                <del>$7.500</del>
-                <strong>$5.000</strong>
-              </div>
-
-              <button
-                class="buy-button"
-                onclick="buy('YouTube Premium — 1 Mes', 5000)"
-              >
-                Comprar Ahora
-              </button>
+              <span class="platform-tag">PREMIUM</span>
 
             </div>
+
+            <h3>YouTube Premium</h3>
+            <p class="duration">1 Mes</p>
+
+            <div class="price">
+              <del>$7.500</del>
+              <strong>$5.000</strong>
+            </div>
+
+            <button
+              class="buy-button"
+              onclick="buy('YouTube Premium — 1 Mes', 5000)"
+            >
+              Comprar
+            </button>
 
           </article>
 
-
         </div>
 
       </div>
@@ -681,128 +703,43 @@
     </section>
 
 
-    <!-- CÓMO FUNCIONA -->
-    <section class="steps-section">
+    <!-- =========================
+         CÓMO COMPRAR
+    ========================== -->
+    <section id="como-comprar" class="how section">
 
       <div class="container">
 
-        <div class="section-heading centered">
-
-          <div>
-
-            <span class="section-label">
-              SIMPLE Y RÁPIDO
-            </span>
-
-            <h2>
-              ¿Cómo Funciona?
-            </h2>
-
-          </div>
-
+        <div class="section-heading center">
+          <span class="eyebrow">PROCESO</span>
+          <h2>¿Cómo Comprar?</h2>
+          <p>Comprar Tu Cuenta Es Rápido Y Sencillo.</p>
         </div>
 
-
-        <div class="steps-grid">
-
+        <div class="steps">
 
           <div class="step">
-
-            <span class="step-number">
-              01
-            </span>
-
-            <div class="step-icon">
-              🎬
-            </div>
-
-            <h3>
-              Elegí
-            </h3>
-
+            <span>01</span>
+            <h3>Elegí Tu Plan</h3>
             <p>
-              Seleccioná El Servicio Y Plan Que Querés Contratar.
+              Seleccioná La Plataforma Y El Plan Que Querés Comprar.
             </p>
-
           </div>
-
 
           <div class="step">
-
-            <span class="step-number">
-              02
-            </span>
-
-            <div class="step-icon">
-              💳
-            </div>
-
-            <h3>
-              Pagá
-            </h3>
-
+            <span>02</span>
+            <h3>Realizá El Pago</h3>
             <p>
-              Realizá El Pago De Forma Rápida Y Segura.
+              Completá El Pago De Forma Segura Mediante Mercado Pago.
             </p>
-
           </div>
-
 
           <div class="step">
-
-            <span class="step-number">
-              03
-            </span>
-
-            <div class="step-icon">
-              📱
-            </div>
-
-            <h3>
-              Confirmá
-            </h3>
-
+            <span>03</span>
+            <h3>Recibí Tu Cuenta</h3>
             <p>
-              Enviá El Comprobante Por WhatsApp Y Recibí Tu Servicio.
+              Enviá Tu Comprobante Y Recibí Los Datos De Acceso.
             </p>
-
-          </div>
-
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- INFORMACIÓN -->
-    <section class="info-section">
-
-      <div class="container">
-
-        <div class="info-box">
-
-          <div class="info-icon">
-            ℹ
-          </div>
-
-          <div>
-
-            <h3>
-              Importante
-            </h3>
-
-            <p>
-              Después De Realizar El Pago, Enviá El Comprobante
-              Por WhatsApp Para Poder Procesar Tu Contratación.
-            </p>
-
-            <p>
-              STREAMNET Es Un Servicio Independiente Y No Representa
-              Oficialmente A Las Plataformas Mencionadas.
-            </p>
-
           </div>
 
         </div>
@@ -812,198 +749,41 @@
     </section>
 
 
-    <!-- CONTACTO -->
-    <section class="contact-section">
+    <!-- =========================
+         CONTACTO
+    ========================== -->
+    <section id="contacto" class="contact section">
 
-      <div class="container contact-content">
+      <div class="container contact-box">
 
-        <span class="section-label">
-          ¿NECESITÁS AYUDA?
-        </span>
-
-        <h2>
-          Estamos Para Ayudarte.
-        </h2>
-
-        <p>
-          Si Tenés Alguna Consulta Sobre Los Servicios,
-          Escribinos Por WhatsApp.
-        </p>
-
-        <a
-          href="https://wa.me/5493844546841"
-          target="_blank"
-          rel="noopener"
-          class="whatsapp-button"
-        >
-          💬 Contactar Por WhatsApp
-        </a>
-
-      </div>
-
-    </section>
-
-  </main>
-
-
-  <!-- FOOTER -->
-  <footer class="site-footer">
-
-    <div class="container footer-inner">
-
-      <div>
-
-        <div class="logo">
-          STREAM<span>NET</span>
+        <div>
+          <span class="eyebrow">CONTACTO</span>
+          <h2>¿Tenés Alguna Consulta?</h2>
+          <p>
+            Escribinos Por WhatsApp Y Te Ayudamos Con Tu Compra.
+          </p>
         </div>
 
-        <p>
-          Tu Entretenimiento, En Un Solo Lugar.
-        </p>
+        <div class="contact-buttons">
 
-      </div>
+          <a
+            href="https://wa.me/5493844546841"
+            target="_blank"
+            rel="noopener"
+            class="btn primary"
+          >
+            WhatsApp
+          </a>
 
+          <a
+            href="https://www.instagram.com/cergio.oficial__/"
+            target="_blank"
+            rel="noopener"
+            class="btn secondary"
+          >
+            Instagram
+          </a>
 
-      <div class="footer-links">
-
-        <a href="#catalogo">
-          Catálogo
-        </a>
-
-        <a
-          href="https://www.instagram.com/cergio.oficial__/"
-          target="_blank"
-          rel="noopener"
-        >
-          Instagram
-        </a>
-
-        <a
-          href="https://wa.me/5493844546841"
-          target="_blank"
-          rel="noopener"
-        >
-          WhatsApp
-        </a>
-
-      </div>
-
-    </div>
-
-
-    <div class="container copyright">
-      © 2026 STREAMNET. Todos Los Derechos Reservados.
-    </div>
-
-  </footer>
-
-
-  <!-- MODAL DE COMPRA -->
-  <div
-    class="modal"
-    id="purchaseModal"
-    aria-hidden="true"
-  >
-
-    <div
-      class="modal-overlay"
-      onclick="closeModal()"
-    ></div>
-
-
-    <div class="modal-box">
-
-      <button
-        class="modal-close"
-        onclick="closeModal()"
-        aria-label="Cerrar"
-      >
-        ×
-      </button>
-
-
-      <span class="section-label">
-        CONTRATACIÓN
-      </span>
-
-      <h2>
-        Confirmá Tu Compra
-      </h2>
-
-
-      <div class="selected-product">
-
-        <span id="selectedName">
-          Servicio
-        </span>
-
-        <strong id="selectedPrice">
-          $0
-        </strong>
-
-      </div>
-
-
-      <form id="purchaseForm">
-
-        <label for="customerName">
-          Tu Nombre
-        </label>
-
-        <input
-          type="text"
-          id="customerName"
-          placeholder="Ingresá Tu Nombre"
-          required
-        >
-
-
-        <label for="customerPhone">
-          Tu WhatsApp
-        </label>
-
-        <input
-          type="tel"
-          id="customerPhone"
-          placeholder="Ej: 3844 123456"
-          required
-        >
-
-
-        <button
-          type="submit"
-          class="modal-buy-button"
-        >
-          Continuar Al Pago
-        </button>
-
-      </form>
-
-
-      <p class="modal-note">
-        Después Del Pago Deberás Enviar El Comprobante
-        Por WhatsApp.
-      </p>
-
-    </div>
-
-  </div>
-
-
-  <!-- MODAL POST PAGO -->
-  <div
-    class="modal"
-    id="afterPaymentModal"
-    aria-hidden="true"
-  >
-
-    <div class="modal-overlay"></div>
-
-
-    <div class="modal-box success-box">
-
-      <div class="success-icon">
-        ✓
-      </div>
+        </div>
 
  
