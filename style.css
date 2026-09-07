@@ -18,20 +18,26 @@
 
 
 * {
+
   margin: 0;
   padding: 0;
+
   box-sizing: border-box;
+
 }
 
 
 html {
+
   scroll-behavior: smooth;
+
 }
 
 
 body {
 
   background: var(--bg);
+
   color: var(--text);
 
   font-family:
@@ -53,25 +59,35 @@ body.modal-open {
 
 
 a {
+
   color: inherit;
   text-decoration: none;
+
 }
 
 
 button,
 input {
+
   font: inherit;
+
 }
 
 
 button {
+
   cursor: pointer;
+
 }
 
 
 .container {
 
-  width: min(1180px, calc(100% - 40px));
+  width: min(
+    1180px,
+    calc(100% - 40px)
+  );
+
   margin: 0 auto;
 
 }
@@ -84,15 +100,20 @@ button {
 .site-header {
 
   position: sticky;
+
   top: 0;
+
   z-index: 100;
 
-  background: rgba(6, 8, 12, 0.86);
+  background:
+    rgba(6, 8, 12, 0.86);
 
   border-bottom:
-    1px solid rgba(255, 255, 255, 0.06);
+    1px solid
+    rgba(255, 255, 255, 0.06);
 
-  backdrop-filter: blur(18px);
+  backdrop-filter:
+    blur(18px);
 
 }
 
@@ -102,7 +123,9 @@ button {
   min-height: 76px;
 
   display: flex;
+
   align-items: center;
+
   justify-content: space-between;
 
 }
@@ -111,6 +134,7 @@ button {
 .logo {
 
   font-size: 24px;
+
   font-weight: 900;
 
   letter-spacing: -1px;
@@ -119,7 +143,9 @@ button {
 
 
 .logo span {
+
   color: var(--accent);
+
 }
 
 
@@ -135,9 +161,11 @@ button {
   color: var(--muted);
 
   font-size: 13px;
+
   font-weight: 700;
 
-  transition: 0.2s ease;
+  transition:
+    0.2s ease;
 
 }
 
@@ -165,12 +193,14 @@ button {
   min-height: 520px;
 
   display: flex;
+
   align-items: center;
 
   overflow: hidden;
 
   border-bottom:
-    1px solid rgba(255, 255, 255, 0.05);
+    1px solid
+    rgba(255, 255, 255, 0.05);
 
 }
 
@@ -187,7 +217,8 @@ button {
   top: -250px;
   left: 50%;
 
-  transform: translateX(-50%);
+  transform:
+    translateX(-50%);
 
   background:
     radial-gradient(
@@ -223,7 +254,8 @@ button {
   margin-bottom: 20px;
 
   border:
-    1px solid rgba(155, 124, 255, 0.25);
+    1px solid
+    rgba(155, 124, 255, 0.25);
 
   border-radius: 999px;
 
@@ -233,6 +265,7 @@ button {
   color: var(--accent2);
 
   font-size: 11px;
+
   font-weight: 800;
 
   letter-spacing: 1.2px;
@@ -242,7 +275,8 @@ button {
 
 .hero h1 {
 
-  font-size: clamp(48px, 8vw, 88px);
+  font-size:
+    clamp(48px, 8vw, 88px);
 
   line-height: 0.98;
 
@@ -254,7 +288,9 @@ button {
 
 
 .hero h1 span {
+
   color: var(--accent);
+
 }
 
 
@@ -276,6 +312,7 @@ button {
   display: inline-flex;
 
   align-items: center;
+
   gap: 12px;
 
   padding: 14px 21px;
@@ -297,14 +334,16 @@ button {
 
 .hero-button:hover {
 
-  transform: translateY(-2px);
+  transform:
+    translateY(-2px);
+
   opacity: 0.9;
 
 }
 
 
 /* =========================
-   SECTION
+   SECTIONS
 ========================= */
 
 .catalog-section,
@@ -322,6 +361,7 @@ button {
   display: flex;
 
   align-items: end;
+
   justify-content: space-between;
 
   gap: 20px;
@@ -334,6 +374,7 @@ button {
 .section-heading.centered {
 
   justify-content: center;
+
   text-align: center;
 
 }
@@ -358,7 +399,8 @@ button {
 
 .section-heading h2 {
 
-  font-size: clamp(30px, 5vw, 44px);
+  font-size:
+    clamp(30px, 5vw, 44px);
 
   line-height: 1;
 
@@ -399,6 +441,7 @@ button {
   padding: 20px;
 
   display: flex;
+
   flex-direction: column;
 
   border:
@@ -423,7 +466,8 @@ button {
 
 .stream-card:hover {
 
-  transform: translateY(-4px);
+  transform:
+    translateY(-4px);
 
   border-color:
     rgba(155, 124, 255, 0.35);
@@ -435,10 +479,14 @@ button {
 }
 
 
+/* =========================
+   SERVICE LOGOS
+========================= */
+
 .service-icon {
 
-  width: 48px;
-  height: 48px;
+  width: 58px;
+  height: 58px;
 
   display: flex;
 
@@ -447,111 +495,261 @@ button {
 
   margin-bottom: 22px;
 
-  border-radius: 13px;
+  border-radius: 15px;
 
-  font-size: 14px;
-  font-weight: 900;
+  overflow: hidden;
 
 }
 
+
+.service-icon img {
+
+  width: 34px;
+  height: 34px;
+
+  display: block;
+
+  object-fit: contain;
+
+}
+
+
+/* NETFLIX */
 
 .netflix {
 
-  background: #1c0a0d;
-  color: #ff4d5f;
+  background:
+    rgba(229, 9, 20, 0.10);
 
   border:
-    1px solid #4b1820;
+    1px solid
+    rgba(229, 9, 20, 0.25);
 
 }
 
+
+.netflix img {
+
+  filter:
+    brightness(0)
+    saturate(100%)
+    invert(14%)
+    sepia(93%)
+    saturate(5845%)
+    hue-rotate(352deg)
+    brightness(97%)
+    contrast(113%);
+
+}
+
+
+/* DISNEY */
 
 .disney {
 
-  background: #0b1630;
-  color: #66a4ff;
+  background:
+    rgba(0, 99, 255, 0.10);
 
   border:
-    1px solid #203e78;
+    1px solid
+    rgba(70, 135, 255, 0.25);
 
 }
 
+
+.disney img {
+
+  filter:
+    brightness(0)
+    saturate(100%)
+    invert(48%)
+    sepia(93%)
+    saturate(2874%)
+    hue-rotate(202deg)
+    brightness(101%)
+    contrast(102%);
+
+}
+
+
+/* HBO */
 
 .hbo {
 
-  background: #171127;
-  color: #b69aff;
+  background:
+    rgba(155, 124, 255, 0.10);
 
   border:
-    1px solid #3d2a6d;
+    1px solid
+    rgba(155, 124, 255, 0.25);
 
 }
 
+
+.hbo img {
+
+  filter:
+    brightness(0)
+    saturate(100%)
+    invert(65%)
+    sepia(48%)
+    saturate(1636%)
+    hue-rotate(218deg)
+    brightness(101%)
+    contrast(103%);
+
+}
+
+
+/* PRIME VIDEO */
 
 .prime {
 
-  background: #10202b;
-  color: #67cfff;
+  background:
+    rgba(0, 168, 225, 0.10);
 
   border:
-    1px solid #24546b;
-
-  font-size: 18px;
+    1px solid
+    rgba(0, 168, 225, 0.25);
 
 }
 
+
+.prime img {
+
+  filter:
+    brightness(0)
+    saturate(100%)
+    invert(64%)
+    sepia(77%)
+    saturate(1450%)
+    hue-rotate(161deg)
+    brightness(95%)
+    contrast(102%);
+
+}
+
+
+/* PARAMOUNT */
 
 .paramount {
 
-  background: #101b2c;
-  color: #72aaff;
+  background:
+    rgba(0, 115, 207, 0.10);
 
   border:
-    1px solid #254777;
+    1px solid
+    rgba(0, 115, 207, 0.25);
 
 }
 
+
+.paramount img {
+
+  filter:
+    brightness(0)
+    saturate(100%)
+    invert(52%)
+    sepia(92%)
+    saturate(1550%)
+    hue-rotate(179deg)
+    brightness(94%)
+    contrast(101%);
+
+}
+
+
+/* VIX */
 
 .vix {
 
-  background: #1b101f;
-  color: #e78bff;
+  background:
+    rgba(195, 79, 255, 0.10);
 
   border:
-    1px solid #522761;
+    1px solid
+    rgba(195, 79, 255, 0.25);
 
 }
 
+
+.vix img {
+
+  filter:
+    brightness(0)
+    saturate(100%)
+    invert(69%)
+    sepia(92%)
+    saturate(2635%)
+    hue-rotate(257deg)
+    brightness(101%)
+    contrast(101%);
+
+}
+
+
+/* APPLE */
 
 .apple {
 
-  background: #171b21;
-  color: #f4f7fb;
+  background:
+    rgba(255, 255, 255, 0.06);
 
   border:
-    1px solid #343b46;
-
-  font-size: 18px;
+    1px solid
+    rgba(255, 255, 255, 0.15);
 
 }
 
+
+.apple img {
+
+  filter:
+    brightness(0)
+    invert(1);
+
+}
+
+
+/* YOUTUBE */
 
 .youtube {
 
-  background: #260d10;
-  color: #ff5d69;
+  background:
+    rgba(255, 0, 0, 0.09);
 
   border:
-    1px solid #591a21;
+    1px solid
+    rgba(255, 0, 0, 0.22);
 
 }
 
+
+.youtube img {
+
+  filter:
+    brightness(0)
+    saturate(100%)
+    invert(14%)
+    sepia(97%)
+    saturate(6977%)
+    hue-rotate(357deg)
+    brightness(101%)
+    contrast(113%);
+
+}
+
+
+/* =========================
+   CARD
+========================= */
 
 .card-content {
 
   flex: 1;
 
   display: flex;
+
   flex-direction: column;
 
 }
@@ -562,6 +760,7 @@ button {
   display: flex;
 
   align-items: center;
+
   justify-content: space-between;
 
   gap: 10px;
@@ -572,6 +771,7 @@ button {
 .service-name {
 
   font-size: 17px;
+
   font-weight: 800;
 
 }
@@ -589,7 +789,8 @@ button {
     rgba(0, 208, 132, 0.09);
 
   border:
-    1px solid rgba(0, 208, 132, 0.2);
+    1px solid
+    rgba(0, 208, 132, 0.2);
 
   color: var(--green);
 
@@ -616,6 +817,7 @@ button {
 .price {
 
   display: flex;
+
   flex-direction: column;
 
   margin-top: 16px;
@@ -650,6 +852,7 @@ button {
   width: 100%;
 
   margin-top: auto;
+
   padding: 12px 14px;
 
   border: 0;
@@ -673,7 +876,8 @@ button {
 
 .buy-button:hover {
 
-  transform: translateY(-1px);
+  transform:
+    translateY(-1px);
 
   background: var(--accent2);
 
@@ -689,10 +893,12 @@ button {
   background: #080b10;
 
   border-top:
-    1px solid rgba(255, 255, 255, 0.04);
+    1px solid
+    rgba(255, 255, 255, 0.04);
 
   border-bottom:
-    1px solid rgba(255, 255, 255, 0.04);
+    1px solid
+    rgba(255, 255, 255, 0.04);
 
 }
 
@@ -735,6 +941,7 @@ button {
   color: #3d4551;
 
   font-size: 13px;
+
   font-weight: 900;
 
 }
@@ -780,7 +987,8 @@ button {
   padding: 25px;
 
   border:
-    1px solid rgba(255, 212, 92, 0.16);
+    1px solid
+    rgba(255, 212, 92, 0.16);
 
   border-radius: 16px;
 
@@ -852,7 +1060,8 @@ button {
 
 .contact-content h2 {
 
-  font-size: clamp(34px, 6vw, 52px);
+  font-size:
+    clamp(34px, 6vw, 52px);
 
   line-height: 1;
 
@@ -875,6 +1084,7 @@ button {
   display: inline-flex;
 
   align-items: center;
+
   justify-content: center;
 
   padding: 13px 20px;
@@ -898,7 +1108,8 @@ button {
 
 .whatsapp-button:hover {
 
-  transform: translateY(-2px);
+  transform:
+    translateY(-2px);
 
   opacity: 0.9;
 
@@ -926,6 +1137,7 @@ button {
   display: flex;
 
   align-items: center;
+
   justify-content: space-between;
 
   gap: 30px;
@@ -961,7 +1173,8 @@ button {
 
   font-size: 12px;
 
-  transition: color 0.2s ease;
+  transition:
+    color 0.2s ease;
 
 }
 
@@ -978,7 +1191,8 @@ button {
   padding: 18px 0;
 
   border-top:
-    1px solid rgba(255, 255, 255, 0.05);
+    1px solid
+    rgba(255, 255, 255, 0.05);
 
   color: #606975;
 
@@ -1004,6 +1218,7 @@ button {
   display: none;
 
   align-items: center;
+
   justify-content: center;
 
   padding: 20px;
@@ -1012,7 +1227,9 @@ button {
 
 
 .modal.active {
+
   display: flex;
+
 }
 
 
@@ -1025,7 +1242,8 @@ button {
   background:
     rgba(0, 0, 0, 0.78);
 
-  backdrop-filter: blur(8px);
+  backdrop-filter:
+    blur(8px);
 
 }
 
@@ -1036,7 +1254,10 @@ button {
 
   z-index: 2;
 
-  width: min(460px, 100%);
+  width: min(
+    460px,
+    100%
+  );
 
   max-height: 90vh;
 
@@ -1085,7 +1306,9 @@ button {
 
 
 .modal-close:hover {
+
   color: var(--text);
+
 }
 
 
@@ -1105,11 +1328,13 @@ button {
   display: flex;
 
   align-items: center;
+
   justify-content: space-between;
 
   gap: 15px;
 
   margin-bottom: 22px;
+
   padding: 15px;
 
   border:
@@ -1143,6 +1368,7 @@ button {
 #purchaseForm {
 
   display: flex;
+
   flex-direction: column;
 
 }
@@ -1155,6 +1381,7 @@ button {
   color: var(--muted);
 
   font-size: 12px;
+
   font-weight: 700;
 
 }
@@ -1165,6 +1392,7 @@ button {
   width: 100%;
 
   margin-bottom: 15px;
+
   padding: 13px 14px;
 
   outline: none;
@@ -1183,7 +1411,8 @@ button {
 
 #purchaseForm input:focus {
 
-  border-color: var(--accent);
+  border-color:
+    var(--accent);
 
 }
 
@@ -1229,6 +1458,10 @@ button {
 }
 
 
+/* =========================
+   SUCCESS
+========================= */
+
 .success-box {
 
   text-align: center;
@@ -1254,11 +1487,13 @@ button {
     rgba(0, 208, 132, 0.1);
 
   border:
-    1px solid rgba(0, 208, 132, 0.25);
+    1px solid
+    rgba(0, 208, 132, 0.25);
 
   color: var(--green);
 
   font-size: 30px;
+
   font-weight: 900;
 
 }
@@ -1323,10 +1558,11 @@ button {
 
   .container {
 
-    width: min(
-      100% - 28px,
-      1180px
-    );
+    width:
+      min(
+        100% - 28px,
+        1180px
+      );
 
   }
 
@@ -1419,6 +1655,22 @@ button {
   }
 
 
+  .service-icon {
+
+    width: 56px;
+    height: 56px;
+
+  }
+
+
+  .service-icon img {
+
+    width: 32px;
+    height: 32px;
+
+  }
+
+
   .steps-grid {
 
     grid-template-columns: 1fr;
@@ -1457,4 +1709,4 @@ button {
 
   }
 
-  }
+}
